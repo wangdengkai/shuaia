@@ -1,0 +1,18 @@
+项目:爬取帅啊网站的帅哥
+
+环境python3,scrapy.
+关键:
+    分析连接.
+    控制爬取速度.
+
+我刚一开始就没有控制速度ip,被封了.
+后来设计了请求头,代理ip,也没怎么用.
+
+使用:
+    1   在settings.py设置好自己的图片保存路径
+        IMAGES_STORE="G:\development\images\shuaia"
+    2   运行:进入项目目录,输入命令:
+          $ scrapy crealw shuaia
+
+
+
